@@ -1,0 +1,65 @@
+/* Styles généraux */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Navigation */
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ff4c4c;
+}
+
+/* Contenu principal */
+#content {
+    padding: 20px;
+    text-align: center; /* Centrer le contenu */
+}
+
+.shoe-item {
+    display: inline-block; /* Permet d'afficher les chaussures côte à côte */
+    margin: 20px; /* Ajoute un espacement entre les chaussures */
+    text-align: center; /* Centre le contenu des chaussures */
+}
+
+.shoe-image {
+    width: 300px;
+    height: auto;
+    display: block;
+    margin-bottom: 10px; /* Ajoute un espacement entre l'image et le nom du produit */
+    transition: transform 0.3s ease;
+}
+
+.product-name {
+    margin-bottom: 10px; /* Ajoute un espacement en bas pour une meilleure apparence */
+}
+
+/* Footer */
+footer {
+    border-top: 1px solid #ccc;
+    padding: 20px 0;
+    overflow: hidden;
+}
+
+/* Boîte de lettre animée */
+.newsletter {
+    transition: transform 0.5s ease;
+}
+
+/* Réseaux sociaux animés */
+.social-media img {
+    transition: transform 0.3s ease;
+    width: 40px;
+    height: auto;
+}
+
+.social-media img:hover {
+    transform: scale(1.2);
+}

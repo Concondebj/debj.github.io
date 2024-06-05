@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site Web de Baskets Nike</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#" onclick="loadPage('pages/page1.html')">Basket Rouge</a></li>
+                <li><a href="#" onclick="loadPage('pages/page2.html')">Basket Bleue</a></li>
+                <li><a href="#" onclick="loadPage('pages/page3.html')">Basket Verte</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main id="content">
+        <!-- Le contenu des pages sera chargé ici -->
+    </main>
+    <footer>
+        <!-- Boîte de lettre animée -->
+        <div class="newsletter">
+            <h2>Abonnez-vous à notre newsletter</h2>
+            <form action="subscribe.php" method="post">
+                <input type="email" name="email" placeholder="Entrez votre adresse e-mail" required>
+                <button type="submit">S'abonner</button>
+            </form>
+        </div>
+        <!-- Réseaux sociaux animés -->
+        <div class="social-media">
+            <h2>Suivez-nous sur les réseaux sociaux</h2>
+            <ul>
+                <li><a href="https://www.facebook.com/votrepage" target="_blank"><img src="facebook.png" alt="Facebook"></a></li>
+                <li><a href="https://twitter.com/votrepage" target="_blank"><img src="twitter.png" alt="Twitter"></a></li>
+                <li><a href="https://www.instagram.com/votrepage" target="_blank"><img src="instagram.png" alt="Instagram"></a></li>
+            </ul>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script> <!-- Intégration de EmailJS -->
+    <script src="email.js"></script> <!-- Fichier JavaScript pour l'envoi d'e-mail -->
+</body>
+</html>
